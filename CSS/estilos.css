@@ -1,0 +1,260 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabe {
+    border-bottom: 1px solid #000000;
+    width: 96%;
+    height: 150px;
+    padding: 0% 2%;
+    background-color: #7748f8;
+    justify-content: center;
+}
+
+#cabe>div {
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 45px;
+    flex: 1;
+    max-width: 960px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: center;
+}
+
+h5 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+h6 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+main{
+    width: 96%;
+    padding: 39px;
+    background-color: #ffffff;
+}
+
+#nave {
+    background-color: #999797;
+    border-bottom: 1px solid #000000;
+}
+
+#nave li {
+    display: inline-block;
+    margin-right: 5px;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+}
+
+#nave li:hover {
+    background-color: #ffffff;
+}
+
+#nave a {
+    font: bold 18px Times, sans-serif;
+    color: #333333;
+    text-decoration: none;
+}
+
+
+#listametas > li{
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+#listametas li > ul{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background-color:#7748f8 ;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 0px 0px 5px 5px;
+    list-style: none;
+    z-index: 1000;
+
+}
+#listametas li > ul > li{
+    width: 120px;
+    height: 35px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+#listametas li:hover ul {
+    display: block;
+}
+#listametas a {
+    font: bold 18px Times, sans-serif;
+    color: #030303;
+    text-decoration: none;
+}
+#nave li:hover {
+    background-color: #fdfdfd;
+}
+#foto img {
+    margin: auto;
+    padding:10px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #000000;
+    width: 300px;
+    height: 300px;
+    display: block;
+    
+}
+
+#mipagina {
+    float: left;
+    width: 68%;
+    height: 80%;
+    padding: 30px;
+    background-color: #999797;
+    border-radius: 20px;
+}
+
+#redes {
+   float: right;
+   width: 25%x;
+   height: 280px;
+   padding: 20px;
+   background-color: #999797;
+   border-radius: 20px;  
+   display: block; 
+}
+#redes p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#lateral {
+    clear: both;
+}
+#sobremi h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.tabla {
+    width: 100%;
+    padding: 40px;
+    justify-content: center;
+    background-color: #7748f8;
+}
+
+.tabla p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: #7748f8;
+}
+.tabla img {
+    margin: auto;
+    display: block;
+}
+
+
+
+#pie{
+    width: 96%;
+    padding: 2%;
+    background-color:#7748f8;
+}
+
+#pie>div {
+    width: 960px;
+    margin: 0px auto;
+    background-color: #999797;
+    border-radius: 10px;
+}
+#pie1{
+    float: left;
+    width: 270px;
+    padding: 25px;
+}
+
+#pie1 h1 {
+    font: bold 20px Times, sans-serif;
+    
+}
+#pie1 p {
+    margin-top: 5px;
+
+}
+
+#pie1 a {
+    font: bold 16px Times, sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+#pie2 h1 {
+    font: bold 20px Times, sans-serif;
+    
+}
+#pie2 p {
+    margin-top: 5px;
+}
+
+#pie2 a {
+    font: bold 16px Times, sans-serif;
+    color: #000000;
+    text-decoration: none; 
+}
+
+#pie2 {
+    float: left;
+    width: 27.33%;
+    padding: 3%;
+}
+
+.recuperar{
+    clear: both;
+}
+
+#bio p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#foto2 img{
+    margin: auto;
+    padding:10px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #000000;
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+
+#tablaa {
+    width: 100%; 
+}
+#tablaa {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.t1{
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+.t2{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
